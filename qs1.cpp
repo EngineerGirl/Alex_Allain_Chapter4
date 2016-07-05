@@ -8,3 +8,39 @@
 100.
  ==============================================================================================================================
  */
+#include <iostream>
+#include <string>
+#include <cstdlib>
+#include <ctime>
+
+void age (int age1, int age2)
+{
+if (age1 >= 100 && age2 >= 100)
+{
+	cout<< "wow..u both r old"<<endl;	
+}
+else
+{
+	if(age1> age2)
+	{
+		cout << "Person 1 is older"<<endl;
+	}
+	else
+	{
+		cout<<"Person 2 is older"<<endl;
+	}
+}
+}
+
+int main()
+{
+	int a1,a2;
+	cout<<"Person 1: Enter your age"<<endl;
+	cin>>a1;
+	cout<<"Person 2: Enter your age"<<endl;
+	cin>>a2;
+	age(a1,a2);
+
+system("pause");
+	return 0;	
+}
