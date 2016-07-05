@@ -12,6 +12,7 @@
 #include <string>
 #include <cstdlib>
 #include <ctime>
+using namespace std;
 
 void age (int age1, int age2)
 {
